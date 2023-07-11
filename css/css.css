@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrap {
+    width: 1160px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.header {
+    background-color: #222;
+    color: #E8E8E8;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    background-color: #F1E4E6;
+}
+
+.benefits {
+    background-color: #222224;
+    color: #FBFBFB;
+}
+
+.footer {
+    background-color: #222224;
+    color: #FBFBFB;
+}
+
+.header-col-1{
+    display: flex;
+    align-items: center;
+}
+
+.header-col-2{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-link{
+    margin-right: 41px;
+    text-decoration: none;
+    color: transparent;
+}
+
+.header-search-link{
+    background-color: transparent;
+    border: none;
+}
+
+.header-menu-link{
+    margin-right: 33px;
+    background-color: transparent;
+    border: none;
+}
+
+.header-contact-link{
+    margin-right: 33px;
+    text-decoration: none;
+    color: transparent;
+}
+
+.header-basket-link{
+    text-decoration: none;
+    color: transparent;
+}
+
+.header-logo{
+    width: 44px;
+}
+
+.offer-wrap{
+    height: 765px;
+    background: url(../img/offer_img.png);
+    background-repeat: no-repeat;
+    background-position-x: -225px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+ 
+.offer-text {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+
+    color: #222222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px ;
+    margin-right: 90px;
+}
+
+.offer-text--smoll {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.offer-text--pink{
+    
+
+    color: #F16D7F;
+}
+
+.wrap-categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.categories{
+    padding-top: 65px;
+    padding-bottom: 96px;
+}
+
+.ul-li-categories {
+    background-color: #c4c4c4;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.categories-kids--item{
+    background-image: url(../img/kids.jpg);
+
+}
+
+.categories-men--item{
+    background-image: url(../img/catalog-men.png);
+}
+
+.categories-women--item{
+    background-image: url(../img/women.jpg);
+}
+
+.categories-accessories--item{
+    margin-top: 30px;
+    height: 180px;
+    width: 100%;
+    background-image: url(../img/accessuar.jpg);
+}
+
+.categories-women{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+
+.categories-women-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #F16D7F; 
+}
+
+.categories-men{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.categories-men-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #F16D7F; 
+}
+
+.categories-kids{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.categories-kids-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #F16D7F;
+}
+
+.categories-accessories{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.categories-accessories-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #F16D7F;
+}
+
+.wrap-footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 79px;
+    color: #222224;
+}
+
+.link{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.link-bth{
+    color: #c4c4c4;
+}
+
+.right-footer-text{
+    display: flex;
+    align-items: center;
+}
+
+.lift-footer-text{
+    display: flex;
+    align-items: center;
+}
+
+.text-footer{
+    color: #c4c4c4;
+}
+
+.link-bth{
+    background: #E8E8E8;
+    color:#222224 ;
+    
+    margin-left: 6px; ;
+}
+
+
+
